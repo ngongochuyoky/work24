@@ -1,0 +1,148 @@
+/*style form search*/
+main {
+	background: #eee;
+}
+main .formSearch {
+	background: #eee;
+	padding: 30px 0;
+}
+main .formSearch .form_search form {
+	display: flex;
+	justify-content: space-between;
+	background: seagreen;
+	padding: 10px;
+	border-radius: 5px;
+}
+ .formSearch .form_search h2 {
+	color: white;
+	padding-left: 15px;
+	text-shadow: 0 0 5px black;
+	font-size: 36px;
+
+}
+ .formSearch .form_search form div {
+	width: calc((100%/3) - 50px);
+	position: relative;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	border-radius: 3px;
+	color: gray;
+	cursor: pointer;
+}
+
+ .formSearch form .input_search input {
+	padding: 10px;
+	width: 100%;
+	border: none;
+	font-size: 14px;
+	outline: none;
+}
+ .formSearch form div i {
+	color: gray;
+	font-size: 22px;
+}
+ .formSearch form div i.fa-sort-desc {
+	margin-bottom: 10px;
+}
+ .formSearch form .nutBtn {
+	background: tomato;
+	border: 1px solid white;
+	border-radius: 3px;
+	color: white;
+	padding: 0 20px;
+	cursor: pointer;
+}
+main .countWork .container {
+	padding: 15px 30px;
+    background: white;
+    box-shadow: 0 0 2px 1px #dedada;
+}
+main .countWork .container .row {
+	justify-content: space-between;
+}
+
+/*style tat ca viec lam*/
+main .allWork {
+	padding: 30px 0;
+}
+main .allWork .container .col-md-9 {
+	background: white;
+	padding: 0;
+}
+main .allWork .item_work:first-child {
+	border: 1px dashed #cecaca;
+}
+main .allWork .item_work {
+	display: flex;
+	align-items: center;
+	background: white;
+	color: #000000;
+	border: 1px dashed #cecaca;
+	border-top: none
+}
+.allWork .item_work .logo_cty {
+	padding: 0 20px;
+}
+.allWork .item_work .logo_cty:hover img {
+	transform: scale(1.2);
+}
+.allWork .item_work .logo_cty img {
+	width: 70px;
+    height: 50px;
+	display: block;
+	transition: .3s ease-in-out
+ }
+ .allWork .item_work .text {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	width: 100%;
+ 	background: #86deca1f;
+ 	cursor: pointer;
+ 	padding: 20px;
+}
+
+ }
+ .allWork .item_work .text:hover .contentLeft h2 a.name{
+ 	color: tomato !important
+ }
+ .allWork .item_work .text:hover .contentLeft p {
+		animation: cty 1s linear;
+ }
+ .allWork .item_work .text .save {
+ 	text-align: right;
+ }
+ .allWork .item_work .text .contentLeft h2 a { 
+ 	color: #b12020;
+ 	font-size: 18px;
+ 	transition: .3s ease-in-out;
+  }
+   .allWork .item_work .text .contentLeft p {
+   	font-size: 14px;
+   	position: relative;
+  }
+.allWork .item_work .text .info {
+	display: flex;
+	font-size: 12px;
+}
+.allWork .item_work .text .info div {
+	margin-right: 30px;
+	margin-top: 15px;
+}
+
+
+@keyframes cty {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: 50%;
+		opacity: 0;
+	}
+}
+.page.navigation {
+    margin: 0 auto;
+}

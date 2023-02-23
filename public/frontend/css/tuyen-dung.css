@@ -1,0 +1,66 @@
+section.tuyen_dung .container,  section.allWork .container {
+    background: white;
+    padding-bottom: 30px;
+}
+main .tuyen_dung .item .row {
+	padding: 20px 10px
+}
+section.tuyen_dung h2, section.allWork h2 {
+    font-size: 22px;
+    margin: 0;
+}
+section.tuyen_dung h2, section.allWork h2.title {
+	padding: 20px;
+    text-transform: uppercase;
+}
+.tuyen_dung .item .item_work {
+	display: flex;
+	align-items: center;
+	padding: 5px 20px;
+	box-shadow: 0 0 0 1px #afa7a75c;
+	border-radius: 5px;
+	transition: .3s ease-in-out;
+	margin-bottom: 20px;
+}
+.tuyen_dung .item .item_work strong {
+	color: seagreen;
+	font-size: 13px;
+	transition: .3s ease-in-out;
+	width: 220px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.tuyen_dung .item .item_work strong:hover {
+	
+	color: tomato;
+}
+.tuyen_dung .item .item_work p.slary-date {
+    display: flex;
+    justify-content: space-between;
+}
+.tuyen_dung .item .item_work p {
+	margin-top: 5px;
+	font-size: 13px;
+	color: gray;
+	width: 210px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tuyen_dung .item .item_work:hover {
+	box-shadow: 0 2px 7px black;
+}
+.tuyen_dung .item .item_work .text {
+	margin-left: 20px;
+	overflow: hidden;
+
+}
+.tuyen_dung .item .item_work .logo_cty img {
+	width: auto;
+	height: 50px;
+}
+
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+	bottom: 5px;
+}
